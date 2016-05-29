@@ -10,8 +10,19 @@ app.get('/',function(req,res){
 
 app.get('/feed',function(req,res){
 //  res.send("hello");
-  res.sendFile('hello.json');
+  res.sendFile('hello.json', { root: __dirname });
 });
+
+app.get('/products',function(req,res){
+//  res.send("hello");
+  res.sendFile('products/products.html', { root: __dirname });
+});
+
+app.get('/product/examplepdp',function(req,res){
+//  res.send("hello");
+  res.sendFile('products/product.html', { root: __dirname });
+});
+
 
 
 app.listen(process.env.PORT || 5000);
