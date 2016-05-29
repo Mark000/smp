@@ -5,7 +5,7 @@ var path    = require("path");
 
 app.get('/',function(req,res){
 //  res.send("hello");
-  res.sendFile('index.html');
+  res.sendFile('index.html', { root: __dirname });
 });
 
 app.get('/feed',function(req,res){
