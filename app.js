@@ -23,6 +23,11 @@ app.get('/product/examplepdp',function(req,res){
   res.sendFile('products/product.html', { root: __dirname });
 });
 
+app.get('/template',function(req,res){
+//  res.send("hello");
+  res.sendFile('template/home-1-clothes-full-width.html', { root: __dirname });
+});
+
 
 
 app.listen(process.env.PORT || 5000);
