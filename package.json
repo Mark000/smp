@@ -1,0 +1,22 @@
+{
+  "name": "smp",
+  "version": "1.0.0",
+  "description": "test product feed",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mark000/smp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mark000/smp/issues"
+  },
+  "homepage": "https://github.com/Mark000/smp#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

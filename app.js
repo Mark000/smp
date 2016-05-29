@@ -4,8 +4,15 @@ var path    = require("path");
 
 
 app.get('/',function(req,res){
-  res.sendFile(path.join(__dirname+'/index.html'));
+//  res.send("hello");
+  res.sendFile('/Users/markooksanen/Code/smp/index.html');
 });
+
+app.get('/feed',function(req,res){
+//  res.send("hello");
+  res.sendFile('/Users/markooksanen/Code/smp/hello.json');
+});
+
 
 app.listen(3000);
 
