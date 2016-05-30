@@ -1,11 +1,23 @@
 {
-"id":"marko21134",
-"availability":"in stock",
-"condition":"new",
-"description":"A glorious light bulb",
-"image_link":"http://",
-"link":"/product.html",
-"title":"test product",
-"price": "9.99 EUR",
-"brand": "UnicornBulb"
+	"products": [{
+		"id": "adidasSummer345672",
+		"availability": "in stock",
+		"condition": "new",
+		"description": "Perfect summer shoes",
+		"image_link": "http://smpmarko.herokuapp.com/images/product_page_gallery/2-big.jpg",
+		"link": "http://smpmarko.herokuapp.com/product-page_2.html",
+		"title": "Adidas Summer Sneakers Women",
+		"price": "900 EUR",
+		"brand": "UnicornBulb"
+	}, {
+		"id": "adidasSummer345678",
+		"availability": "in stock",
+		"condition": "new",
+		"description": "Perfect summer shoes",
+		"image_link": "http://smpmarko.herokuapp.com/images/product_page_gallery/1-big.jpg",
+		"link": "http://smpmarko.herokuapp.com/product-page.html",
+		"title": "Adidas Summer Superstar Sneakers Women",
+		"price": "900 EUR",
+		"brand": "UnicornBulb"
+	}]
 }
